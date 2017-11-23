@@ -1,0 +1,36 @@
+{
+  "name": "minesweeper-senior",
+  "version": "0.0.1",
+  "description": "A simple solution for minesweeper",
+  "main": "main.js",
+  "scripts": {
+    "test": "ava --esnext *.test.js",
+    "start": "http-server ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LetsCodeBP/minesweeper-senior.git"
+  },
+  "keywords": [
+    "minseweeper"
+  ],
+  "author": "Tamas Kokeny <tamas.kokeny@greenfoxacademy.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LetsCodeBP/minesweeper-senior/issues"
+  },
+  "homepage": "https://github.com/LetsCodeBP/minesweeper-senior#readme",
+  "ava": {
+    "babel": "inherit",
+    "require": [
+      "babel-register"
+    ]
+  },
+  "devDependencies": {
+    "ava": "^0.23.0",
+    "babel-plugin-transform-es2015-modules-umd": "^6.24.1",
+    "babel-preset-es2017": "^6.24.1",
+    "babel-preset-stage-3": "^6.24.1",
+    "http-server": "^0.10.0"
+  }
+}
